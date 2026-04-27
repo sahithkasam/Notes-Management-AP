@@ -1,0 +1,3 @@
+com/example/notes/controller/NoteControllerTest.class
+com/example/notes/integration/NoteIntegrationTest.class
+com/example/notes/service/NoteServiceImplTest.class

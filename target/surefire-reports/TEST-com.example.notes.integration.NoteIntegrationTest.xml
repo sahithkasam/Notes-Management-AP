@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.notes.integration.NoteIntegrationTest" time="0.005" tests="1" errors="0" skipped="1" failures="0">
+  <properties/>
+  <testcase name="createAndFetchNotes_ShouldReturnPersistedResults" classname="com.example.notes.integration.NoteIntegrationTest" time="0.0">
+    <skipped message="disabledWithoutDocker is true and Docker is not available"/>
+    <system-out><![CDATA[10:50:14.616 [main] INFO org.testcontainers.dockerclient.DockerMachineClientProviderStrategy -- docker-machine executable was not found on PATH ([/Users/user/.antigravity/antigravity/bin, /Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand, /Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli, /usr/local/bin, /System/Cryptexes/App/usr/bin, /usr/bin, /bin, /usr/sbin, /sbin, /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin, /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin, /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin, /opt/pkg/env/active/bin, /opt/pmk/env/global/bin, /Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand, /Users/user/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli, /Users/user/.antigravity/antigravity/bin, /usr/local/Caskroom/miniforge/base/bin, /usr/local/Caskroom/miniforge/base/condabin, /Users/user/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts])
+10:50:14.619 [main] ERROR org.testcontainers.dockerclient.DockerClientProviderStrategy -- Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+	UnixSocketClientProviderStrategy: failed with exception InvalidConfigurationException (Could not find unix domain socket). Root cause NoSuchFileException (/var/run/docker.sock)
+	DockerDesktopClientProviderStrategy: failed with exception NullPointerException (Cannot invoke "java.nio.file.Path.toString()" because the return value of "org.testcontainers.dockerclient.DockerDesktopClientProviderStrategy.getSocketPath()" is null)As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+]]></system-out>
+  </testcase>
+</testsuite>

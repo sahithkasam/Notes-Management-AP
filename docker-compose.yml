@@ -1,0 +1,25 @@
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: notes-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  notes-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: notes-api
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATA_MONGODB_URI: mongodb://mongodb:27017/notesdb
+    depends_on:
+      - mongodb
+
+volumes:
+  mongo-data:

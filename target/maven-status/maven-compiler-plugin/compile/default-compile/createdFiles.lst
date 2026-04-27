@@ -1,0 +1,13 @@
+com/example/notes/dto/ApiResponse.class
+com/example/notes/dto/PagedResponse.class
+com/example/notes/repository/NoteRepository.class
+com/example/notes/service/NoteServiceImpl.class
+com/example/notes/controller/NoteController.class
+com/example/notes/config/OpenApiConfig.class
+com/example/notes/NotesManagementApplication.class
+com/example/notes/model/Note.class
+com/example/notes/exception/ResourceNotFoundException.class
+com/example/notes/service/NoteService.class
+com/example/notes/exception/GlobalExceptionHandler.class
+com/example/notes/dto/NoteResponse.class
+com/example/notes/dto/NoteRequest.class

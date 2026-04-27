@@ -1,0 +1,13 @@
+/Users/user/Documents/projects/notes management system/src/main/java/com/example/notes/NotesManagementApplication.java
+/Users/user/Documents/projects/notes management system/src/main/java/com/example/notes/config/OpenApiConfig.java
+/Users/user/Documents/projects/notes management system/src/main/java/com/example/notes/controller/NoteController.java
+/Users/user/Documents/projects/notes management system/src/main/java/com/example/notes/dto/ApiResponse.java
+/Users/user/Documents/projects/notes management system/src/main/java/com/example/notes/dto/NoteRequest.java
+/Users/user/Documents/projects/notes management system/src/main/java/com/example/notes/dto/NoteResponse.java
+/Users/user/Documents/projects/notes management system/src/main/java/com/example/notes/dto/PagedResponse.java
+/Users/user/Documents/projects/notes management system/src/main/java/com/example/notes/exception/GlobalExceptionHandler.java
+/Users/user/Documents/projects/notes management system/src/main/java/com/example/notes/exception/ResourceNotFoundException.java
+/Users/user/Documents/projects/notes management system/src/main/java/com/example/notes/model/Note.java
+/Users/user/Documents/projects/notes management system/src/main/java/com/example/notes/repository/NoteRepository.java
+/Users/user/Documents/projects/notes management system/src/main/java/com/example/notes/service/NoteService.java
+/Users/user/Documents/projects/notes management system/src/main/java/com/example/notes/service/NoteServiceImpl.java
